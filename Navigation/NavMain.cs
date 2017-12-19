@@ -46,11 +46,11 @@ namespace Navigation
 		#region Hooks
 		private void OnInitialize(EventArgs args)
 		{
-			Commands.ChatCommands.Add(new Command("nagivation.top", Top, "top"));
-			Commands.ChatCommands.Add(new Command("nagivation.up", Up, "up"));
-			Commands.ChatCommands.Add(new Command("nagivation.down", Down, "down"));
-			Commands.ChatCommands.Add(new Command("nagivation.left", Left, "left"));
-			Commands.ChatCommands.Add(new Command("nagivation.right", Right, "right"));
+			Commands.ChatCommands.Add(new Command("navigation.top", Top, "top"));
+			Commands.ChatCommands.Add(new Command("navigation.up", Up, "up"));
+			Commands.ChatCommands.Add(new Command("navigation.down", Down, "down"));
+			Commands.ChatCommands.Add(new Command("navigation.left", Left, "left"));
+			Commands.ChatCommands.Add(new Command("navigation.right", Right, "right"));
 		}
 		#endregion
 
